@@ -4,6 +4,7 @@ import time
 import picamera
 
 def main():
+	print 'Starting...'
 	camera = picamera.PiCamera()
 	filename='now.jpg'
 	GPIO.setmode(GPIO.BCM)
